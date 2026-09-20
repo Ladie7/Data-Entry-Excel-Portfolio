@@ -162,25 +162,39 @@ const projects = [
     result: "A structured Excel analysis file demonstrating lookup functions and basic data analysis."
   },
 
-  {
-    id: "07",
-    title: "Google Sheets Data Organization",
-    category: "data",
-    tools: "Google Sheets",
-    image: "assets/projects/google-sheets.jpg",
+  ```javascript
+{
+  id: "07",
+  title: "Google Sheets Data Organization",
+  category: "data organization",
+  tools: "Google Sheets",
 
-    description: "Sample organization of information in a collaborative spreadsheet.",
+  image: "/assets/images/google-sheets-data-after.png",
+  beforeImage: "/assets/images/google-sheets-data-before.png",
+  afterImage: "/assets/images/google-sheets-data-after.png",
 
-    objective: "Create a clear and manageable Google Sheets file.",
+  googleSheetUrl: "https://docs.google.com/spreadsheets/d/1KTEYLHBhDz-UcE36NMsm2xZPCZ5l-2gNjoJqtgjv7wo/edit?usp=sharing",
 
-    tasks: [
-      "Organize columns",
-      "Apply formatting",
-      "Prepare filtered views"
-    ],
+  description: "Sample project focused on organizing and formatting customer order data in Google Sheets.",
 
-    skills: "Google Sheets, organization"
-  },
+  objective: "Organize customer information into a clean, readable, and easy-to-filter Google Sheets table.",
+
+  tasks: [
+    "Enter and organize customer information",
+    "Adjust rows and column widths",
+    "Apply consistent table formatting",
+    "Align and format spreadsheet data",
+    "Create filters for easier data review",
+    "Apply conditional formatting to order status",
+    "Review the final spreadsheet"
+  ],
+
+  skills: "Google Sheets, data organization, formatting, filtering, conditional formatting",
+
+  result: "A clean and structured Google Sheets dataset with organized customer records, filters, and clear order status formatting."
+},
+```
+
 
   {
   id: "08",
