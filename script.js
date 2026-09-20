@@ -1,23 +1,29 @@
 const projects = [
   {
-    id: "01",
-    title: "Excel Data Entry & Organization",
-    category: "excel data",
-    tools: "Microsoft Excel",
-    image: "assets/projects/excel-data-entry.jpg",
+  id: "01",
+  title: "Excel Data Entry & Organization",
+  category: "excel data",
+  tools: "Microsoft Excel",
 
-    description: "Sample project showing structured entry and organization of spreadsheet information.",
+  image: "/assets/images/excel-data-entry-after.png",
+  beforeImage: "/assets/images/excel-data-entry-before.png",
+  afterImage: "/assets/images/excel-data-entry-after.png",
+  sampleFile: "/assets/projects/excel-sample.xlsx",
 
-    objective: "Create a clean and readable spreadsheet structure.",
+  description: "Sample project showing structured entry and organization of spreadsheet information.",
 
-    tasks: [
-      "Enter information into organized columns",
-      "Apply consistent formatting",
-      "Review the final spreadsheet"
-    ],
+  objective: "Create a clean and readable spreadsheet structure.",
 
-    skills: "Data entry, formatting, organization"
-  },
+  tasks: [
+    "Enter information into organized columns",
+    "Apply consistent formatting",
+    "Review the final spreadsheet"
+  ],
+
+  skills: "Data entry, formatting, organization",
+
+  result: "A clean and organized Excel spreadsheet with consistent formatting."
+},
 
   {
     id: "02",
