@@ -108,24 +108,33 @@ const projects = [
   },
 
   {
-    id: "05",
-    title: "Product Data Entry",
-    category: "data",
-    tools: "Excel / Google Sheets",
-    image: "assets/projects/product-data-entry.jpg",
+  id: "05",
+  title: "Product Data Entry",
+  category: "data",
+  tools: "Microsoft Excel / Google Sheets",
 
-    description: "Sample product information entry and organization project.",
+  image: "/assets/images/product-data-entry-after.png",
+  beforeImage: "/assets/images/product-data-entry-before.png",
+  afterImage: "/assets/images/product-data-entry-after.png",
+  sampleFile: "/assets/projects/product-data-entry-sample.xlsx",
 
-    objective: "Arrange product details consistently.",
+  description: "Sample product information entry and organization project using structured product records.",
 
-    tasks: [
-      "Enter names and descriptions",
-      "Organize SKUs",
-      "Format product columns"
-    ],
+  objective: "Enter, organize, and format product information in a clear and consistent spreadsheet.",
 
-    skills: "Product data, data formatting"
-  },
+  tasks: [
+    "Enter product information",
+    "Organize product IDs and SKUs",
+    "Categorize products",
+    "Format prices and stock quantities",
+    "Apply table formatting and filters",
+    "Review the final product data"
+  ],
+
+  skills: "Product data entry, Excel tables, data organization, formatting, sorting and filtering",
+
+  result: "A structured product information spreadsheet with organized records, consistent formatting, and clear inventory details."
+},
 
   {
     id: "06",
