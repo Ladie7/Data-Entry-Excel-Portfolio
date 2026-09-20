@@ -221,7 +221,61 @@ const projects = [
   result: "A clear Excel reporting dashboard that summarizes structured data using tables and visual charts."
 },
 ];
+const certificates = [
+  {
+    id: "01",
+    title: "PRDV004: Spreadsheets",
+    provider: "Saylor Academy",
+    date: "2026",
+    image: "/assets/certificates/saylor-prdv004-spreadsheets.png",
+    file: "/assets/certificates/saylor-prdv004-spreadsheets.pdf"
+  },
 
+  {
+    id: "02",
+    title: "PRDV006: Spreadsheets II: Formatting and Functions",
+    provider: "Saylor Academy",
+    date: "2026",
+    image: "/assets/certificates/saylor-prdv006-spreadsheets-ii.png",
+    file: "/assets/certificates/saylor-prdv006-spreadsheets-ii.pdf"
+  },
+
+  {
+    id: "03",
+    title: "مهارات متقدمة في Excel (2)",
+    provider: "Edraak",
+    date: "2026",
+    image: "/assets/certificates/edraak-advanced-excel-2-ar.png",
+    file: "/assets/certificates/edraak-advanced-excel-2-ar.pdf"
+  },
+
+  {
+    id: "04",
+    title: "Advanced Excel",
+    provider: "Edraak",
+    date: "2026",
+    image: "/assets/certificates/edraak-advanced-excel-en.png",
+    file: "/assets/certificates/edraak-advanced-excel-en.pdf"
+  },
+
+  {
+    id: "05",
+    title: "Google Sheets",
+    provider: "Udacity",
+    date: "2026",
+    image: "/assets/certificates/udacity-google-sheets.png",
+    file: "/assets/certificates/udacity-google-sheets.pdf"
+  },
+
+  {
+    id: "06",
+    title: "Excel Dashboard",
+    provider: "Rwaq",
+    date: "2026",
+    image: "/assets/certificates/rwaq-excel-dashboard.png",
+    file: "/assets/certificates/rwaq-excel-dashboard.pdf"
+  }
+];
 
 const projectGrid = document.querySelector("#project-grid");
 const modal = document.querySelector("#project-modal");
