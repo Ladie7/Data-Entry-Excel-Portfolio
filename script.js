@@ -162,7 +162,7 @@ const projects = [
     result: "A structured Excel analysis file demonstrating lookup functions and basic data analysis."
   },
 
-  {
+    {
     id: "07",
     title: "Google Sheets Data Organization",
     category: "data organization",
@@ -191,10 +191,10 @@ const projects = [
     skills: "Google Sheets, data organization, formatting, filtering, conditional formatting",
 
     result: "A clean and structured Google Sheets dataset with organized customer records, filters, and clear order status formatting."
-},
+  },
 
   {
-  id: "08",
+    id: "08",
   title: "Excel Reporting Dashboard",
   category: "excel reporting",
   tools: "Microsoft Excel",
