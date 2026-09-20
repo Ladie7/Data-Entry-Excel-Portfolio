@@ -26,24 +26,30 @@ const projects = [
 },
 
   {
-    id: "02",
-    title: "Excel Data Cleaning",
-    category: "excel data",
-    tools: "Microsoft Excel",
-    image: "assets/projects/excel-data-cleaning.jpg",
+  id: "02",
+  title: "Excel Data Cleaning",
+  category: "excel data",
+  tools: "Microsoft Excel",
 
-    description: "Practice project focused on improving spreadsheet consistency.",
+  image: "/assets/images/excel-data-cleaning-after.png",
+  beforeImage: "/assets/images/excel-data-cleaning-before.png",
+  afterImage: "/assets/images/excel-data-cleaning-after.png",
+  sampleFile: "/assets/projects/data-cleaning-sample.xlsx",
 
-    objective: "Prepare a cleaner dataset for easier use.",
+  description: "Practice project focused on improving spreadsheet consistency.",
 
-    tasks: [
-      "Remove duplicates",
-      "Standardize formatting",
-      "Review incomplete fields"
-    ],
+  objective: "Prepare a cleaner dataset for easier use.",
 
-    skills: "Data cleaning, sorting, filtering"
-  },
+  tasks: [
+    "Remove duplicates",
+    "Standardize formatting",
+    "Review incomplete fields"
+  ],
+
+  skills: "Data cleaning, sorting, filtering",
+
+  result: "A cleaner and more consistent Excel dataset prepared for easier use."
+},
 
   {
     id: "03",
