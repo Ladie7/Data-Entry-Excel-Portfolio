@@ -35,14 +35,27 @@ const projects = [
   {
     id: "04",
     title: "Inventory Data Entry",
-    category: "data excel",
+    category: "data entry excel",
     tools: "Microsoft Excel",
-    image: "assets/projects/inventory-data-entry.jpg",
-    description: "Practice inventory table containing product and stock information.",
-    objective: "Organize inventory data into a usable table.",
-    tasks: ["Enter product details", "Create table headings", "Apply filters"],
-    skills: "Product data entry, tables, filtering"
-  },
+
+    image: "/assets/images/inventory-data-entry-after.png",
+    beforeImage: "/assets/images/inventory-data-entry-before.png",
+    afterImage: "/assets/images/inventory-data-entry-after.png",
+
+    description: "Inventory data entry and formatting practice using product, category, stock quantity, and unit price information.",
+
+    objective: "Enter, organize, and format inventory data into a clean and structured Excel table.",
+
+    tasks: [
+        "Enter product and inventory data",
+        "Create a structured Excel table",
+        "Apply filters and table formatting",
+        "Format stock quantities and unit prices",
+        "Adjust column widths and data alignment"
+    ],
+
+    skills: "Data entry, Excel tables, filtering, data formatting, inventory organization"
+},
   {
     id: "05",
     title: "Product Data Entry",
