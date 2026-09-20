@@ -174,24 +174,32 @@ const projects = [
   },
 
   {
-    id: "08",
-    title: "Excel Reporting Dashboard",
-    category: "excel reporting",
-    tools: "Microsoft Excel",
-    image: "assets/projects/excel-dashboard.jpg",
+  id: "08",
+  title: "Excel Reporting Dashboard",
+  category: "excel reporting",
+  tools: "Microsoft Excel",
 
-    description: "Practice reporting layout using tables and visual summaries.",
+  image: "/assets/images/excel-reporting-after.png",
+  beforeImage: "/assets/images/excel-reporting-before.png",
+  afterImage: "/assets/images/excel-reporting-after.png",
+  sampleFile: "/assets/projects/reporting-sample.xlsx",
 
-    objective: "Present structured data in a simple reporting format.",
+  description: "Practice reporting project using structured data, summary tables, and a visual Excel dashboard.",
 
-    tasks: [
-      "Prepare summary tables",
-      "Create basic charts",
-      "Format report sections"
-    ],
+  objective: "Present organized data in a clear and easy-to-read reporting dashboard.",
 
-    skills: "PivotTables, PivotCharts, reporting"
-  }
+  tasks: [
+    "Prepare and organize source data",
+    "Create summary tables",
+    "Create charts and visual summaries",
+    "Build a simple reporting dashboard",
+    "Review the final report"
+  ],
+
+  skills: "Excel reporting, PivotTables, PivotCharts, data organization, dashboard formatting",
+
+  result: "A clear Excel reporting dashboard that summarizes structured data using tables and visual charts."
+},
 ];
 
 
