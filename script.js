@@ -281,7 +281,52 @@ const projectGrid = document.querySelector("#project-grid");
 const modal = document.querySelector("#project-modal");
 const modalTitle = document.querySelector("#modal-title");
 const modalBody = document.querySelector("#modal-body");
+const certificateGrid = document.querySelector("#certificate-grid");
 
+function renderCertificates() {
+  if (!certificateGrid) return;
+
+  certificateGrid.innerHTML = "";
+
+  certificates.forEach(certificate => {
+    const card = document.createElement("article");
+    card.className = "certificate-card reveal";
+
+    card.innerHTML = `
+      <div class="certificate-image">
+        <img
+          src="${certificate.image}"
+          alt="${certificate.title} certificate"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="certificate-info">
+        <span class="certificate-number">
+          ${certificate.id} — CERTIFICATE
+        </span>
+
+        <h3>${certificate.title}</h3>
+
+        <p><strong>Provider:</strong> ${certificate.provider}</p>
+        <p><strong>Date:</strong> ${certificate.date}</p>
+
+        <a
+          href="${certificate.file}"
+          class="text-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Certificate →
+        </a>
+      </div>
+    `;
+
+    certificateGrid.appendChild(card);
+  });
+
+  observeReveals();
+}
 
 function renderProjects(filter = "all") {
   projectGrid.innerHTML = "";
@@ -760,3 +805,4 @@ contactForm.addEventListener("submit", event => {
    ========================================= */
 
 renderProjects();
+renderCertificates();
