@@ -59,12 +59,23 @@ const projects = [
     title: "Excel Lookup & Data Analysis",
     category: "excel reporting",
     tools: "Microsoft Excel",
-    image: "assets/projects/excel-lookup.jpg",
+
+    image: "/assets/images/lookup-analysis-after.png",
+    beforeImage: "/assets/images/lookup-analysis-before.png",
+    afterImage: "/assets/images/lookup-analysis-after.png",
+
     description: "Practice spreadsheet using lookup functions and basic analysis.",
+
     objective: "Connect and summarize related spreadsheet information.",
-    tasks: ["Use lookup formulas", "Summarize values", "Review calculated results"],
+
+    tasks: [
+        "Use lookup formulas",
+        "Summarize values",
+        "Review calculated results"
+    ],
+
     skills: "VLOOKUP, XLOOKUP, formulas"
-  },
+},
   {
     id: "07",
     title: "Google Sheets Data Organization",
