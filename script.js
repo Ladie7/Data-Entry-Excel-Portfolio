@@ -52,24 +52,32 @@ const projects = [
 },
 
   {
-    id: "03",
-    title: "PDF to Excel Conversion",
-    category: "pdf data",
-    tools: "Adobe Acrobat / Excel",
-    image: "assets/projects/pdf-to-excel.jpg",
+  id: "03",
+  title: "PDF to Excel Conversion",
+  category: "pdf data",
+  tools: "Adobe Acrobat / Excel",
 
-    description: "Sample conversion of information from a PDF document into Excel.",
+  image: "/assets/images/pdf-to-excel-after.png",
+  beforeImage: "/assets/images/pdf-to-excel-before.png",
+  afterImage: "/assets/images/pdf-to-excel-after.png",
+  sampleFile: "/assets/projects/pdf-conversion-sample.xlsx",
 
-    objective: "Transfer document information into an editable spreadsheet.",
+  description: "Sample conversion of information from a PDF document into an organized Excel spreadsheet.",
 
-    tasks: [
-      "Review source PDF",
-      "Transfer table information",
-      "Format the output spreadsheet"
-    ],
+  objective: "Transfer document information into an editable and structured Excel spreadsheet.",
 
-    skills: "PDF conversion, spreadsheet formatting"
-  },
+  tasks: [
+    "Review the source PDF",
+    "Transfer table information to Excel",
+    "Organize rows and columns",
+    "Format the output spreadsheet",
+    "Review the converted data"
+  ],
+
+  skills: "PDF conversion, data entry, Excel formatting, data organization",
+
+  result: "An organized Excel spreadsheet created from a PDF source document."
+},
 
   {
     id: "04",
