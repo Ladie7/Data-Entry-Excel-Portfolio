@@ -1,83 +1,83 @@
 const projects = [
   {
-  id: "01",
-  title: "Excel Data Entry & Organization",
-  category: "excel data",
-  tools: "Microsoft Excel",
+    id: "01",
+    title: "Excel Data Entry & Organization",
+    category: "excel data",
+    tools: "Microsoft Excel",
 
-  image: "/assets/images/excel-data-entry-after.png",
-  beforeImage: "/assets/images/excel-data-entry-before.png",
-  afterImage: "/assets/images/excel-data-entry-after.png",
-  sampleFile: "/assets/projects/excel-sample.xlsx",
+    image: "/assets/images/excel-data-entry-after.png",
+    beforeImage: "/assets/images/excel-data-entry-before.png",
+    afterImage: "/assets/images/excel-data-entry-after.png",
+    sampleFile: "/assets/projects/excel-sample.xlsx",
 
-  description: "Sample project showing structured entry and organization of spreadsheet information.",
+    description: "Sample project showing structured entry and organization of spreadsheet information.",
 
-  objective: "Create a clean and readable spreadsheet structure.",
+    objective: "Create a clean and readable spreadsheet structure.",
 
-  tasks: [
-    "Enter information into organized columns",
-    "Apply consistent formatting",
-    "Review the final spreadsheet"
-  ],
+    tasks: [
+      "Enter information into organized columns",
+      "Apply consistent formatting",
+      "Review the final spreadsheet"
+    ],
 
-  skills: "Data entry, formatting, organization",
+    skills: "Data entry, formatting, organization",
 
-  result: "A clean and organized Excel spreadsheet with consistent formatting."
-},
-
-  {
-  id: "02",
-  title: "Excel Data Cleaning",
-  category: "excel data",
-  tools: "Microsoft Excel",
-
-  image: "/assets/images/excel-data-cleaning-after.png",
-  beforeImage: "/assets/images/excel-data-cleaning-before.png",
-  afterImage: "/assets/images/excel-data-cleaning-after.png",
-  sampleFile: "/assets/projects/data-cleaning-sample.xlsx",
-
-  description: "Practice project focused on improving spreadsheet consistency.",
-
-  objective: "Prepare a cleaner dataset for easier use.",
-
-  tasks: [
-    "Remove duplicates",
-    "Standardize formatting",
-    "Review incomplete fields"
-  ],
-
-  skills: "Data cleaning, sorting, filtering",
-
-  result: "A cleaner and more consistent Excel dataset prepared for easier use."
-},
+    result: "A clean and organized Excel spreadsheet with consistent formatting."
+  },
 
   {
-  id: "03",
-  title: "PDF to Excel Conversion",
-  category: "pdf data",
-  tools: "Adobe Acrobat / Excel",
+    id: "02",
+    title: "Excel Data Cleaning",
+    category: "excel data",
+    tools: "Microsoft Excel",
 
-  image: "/assets/images/pdf-to-excel-after.png",
-  beforeImage: "/assets/images/pdf-to-excel-before.png",
-  afterImage: "/assets/images/pdf-to-excel-after.png",
-  sampleFile: "/assets/projects/pdf-conversion-sample.xlsx",
+    image: "/assets/images/excel-data-cleaning-after.png",
+    beforeImage: "/assets/images/excel-data-cleaning-before.png",
+    afterImage: "/assets/images/excel-data-cleaning-after.png",
+    sampleFile: "/assets/projects/data-cleaning-sample.xlsx",
 
-  description: "Sample conversion of information from a PDF document into an organized Excel spreadsheet.",
+    description: "Practice project focused on improving spreadsheet consistency.",
 
-  objective: "Transfer document information into an editable and structured Excel spreadsheet.",
+    objective: "Prepare a cleaner dataset for easier use.",
 
-  tasks: [
-    "Review the source PDF",
-    "Transfer table information to Excel",
-    "Organize rows and columns",
-    "Format the output spreadsheet",
-    "Review the converted data"
-  ],
+    tasks: [
+      "Remove duplicates",
+      "Standardize formatting",
+      "Review incomplete fields"
+    ],
 
-  skills: "PDF conversion, data entry, Excel formatting, data organization",
+    skills: "Data cleaning, sorting, filtering",
 
-  result: "An organized Excel spreadsheet created from a PDF source document."
-},
+    result: "A cleaner and more consistent Excel dataset prepared for easier use."
+  },
+
+  {
+    id: "03",
+    title: "PDF to Excel Conversion",
+    category: "pdf data",
+    tools: "Adobe Acrobat / Excel",
+
+    image: "/assets/images/pdf-to-excel-after.png",
+    beforeImage: "/assets/images/pdf-to-excel-before.png",
+    afterImage: "/assets/images/pdf-to-excel-after.png",
+    sampleFile: "/assets/projects/pdf-conversion-sample.xlsx",
+
+    description: "Sample conversion of information from a PDF document into an organized Excel spreadsheet.",
+
+    objective: "Transfer document information into an editable and structured Excel spreadsheet.",
+
+    tasks: [
+      "Review the source PDF",
+      "Transfer table information to Excel",
+      "Organize rows and columns",
+      "Format the output spreadsheet",
+      "Review the converted data"
+    ],
+
+    skills: "PDF conversion, data entry, Excel formatting, data organization",
+
+    result: "An organized Excel spreadsheet created from a PDF source document."
+  },
 
   {
     id: "04",
@@ -108,33 +108,33 @@ const projects = [
   },
 
   {
-  id: "05",
-  title: "Product Data Entry",
-  category: "data",
-  tools: "Microsoft Excel / Google Sheets",
+    id: "05",
+    title: "Product Data Entry",
+    category: "data",
+    tools: "Microsoft Excel / Google Sheets",
 
-  image: "/assets/images/product-data-entry-after.png",
-  beforeImage: "/assets/images/product-data-entry-before.png",
-  afterImage: "/assets/images/product-data-entry-after.png",
-  sampleFile: "/assets/projects/product-data-entry-sample.xlsx",
+    image: "/assets/images/product-data-entry-after.png",
+    beforeImage: "/assets/images/product-data-entry-before.png",
+    afterImage: "/assets/images/product-data-entry-after.png",
+    sampleFile: "/assets/projects/product-data-entry-sample.xlsx",
 
-  description: "Sample product information entry and organization project using structured product records.",
+    description: "Sample product information entry and organization project using structured product records.",
 
-  objective: "Enter, organize, and format product information in a clear and consistent spreadsheet.",
+    objective: "Enter, organize, and format product information in a clear and consistent spreadsheet.",
 
-  tasks: [
-    "Enter product information",
-    "Organize product IDs and SKUs",
-    "Categorize products",
-    "Format prices and stock quantities",
-    "Apply table formatting and filters",
-    "Review the final product data"
-  ],
+    tasks: [
+      "Enter product information",
+      "Organize product IDs and SKUs",
+      "Categorize products",
+      "Format prices and stock quantities",
+      "Apply table formatting and filters",
+      "Review the final product data"
+    ],
 
-  skills: "Product data entry, Excel tables, data organization, formatting, sorting and filtering",
+    skills: "Product data entry, Excel tables, data organization, formatting, sorting and filtering",
 
-  result: "A structured product information spreadsheet with organized records, consistent formatting, and clear inventory details."
-},
+    result: "A structured product information spreadsheet with organized records, consistent formatting, and clear inventory details."
+  },
 
   {
     id: "06",
@@ -162,7 +162,7 @@ const projects = [
     result: "A structured Excel analysis file demonstrating lookup functions and basic data analysis."
   },
 
-    {
+  {
     id: "07",
     title: "Google Sheets Data Organization",
     category: "data organization",
@@ -195,32 +195,33 @@ const projects = [
 
   {
     id: "08",
-  title: "Excel Reporting Dashboard",
-  category: "excel reporting",
-  tools: "Microsoft Excel",
+    title: "Excel Reporting Dashboard",
+    category: "excel reporting",
+    tools: "Microsoft Excel",
 
-  image: "/assets/images/excel-reporting-after.png",
-  beforeImage: "/assets/images/excel-reporting-before.png",
-  afterImage: "/assets/images/excel-reporting-after.png",
-  sampleFile: "/assets/projects/reporting-sample.xlsx",
+    image: "/assets/images/excel-reporting-after.png",
+    beforeImage: "/assets/images/excel-reporting-before.png",
+    afterImage: "/assets/images/excel-reporting-after.png",
+    sampleFile: "/assets/projects/reporting-sample.xlsx",
 
-  description: "Practice reporting project using structured data, summary tables, and a visual Excel dashboard.",
+    description: "Practice reporting project using structured data, summary tables, and a visual Excel dashboard.",
 
-  objective: "Present organized data in a clear and easy-to-read reporting dashboard.",
+    objective: "Present organized data in a clear and easy-to-read reporting dashboard.",
 
-  tasks: [
-    "Prepare and organize source data",
-    "Create summary tables",
-    "Create charts and visual summaries",
-    "Build a simple reporting dashboard",
-    "Review the final report"
-  ],
+    tasks: [
+      "Prepare and organize source data",
+      "Create summary tables",
+      "Create charts and visual summaries",
+      "Build a simple reporting dashboard",
+      "Review the final report"
+    ],
 
-  skills: "Excel reporting, PivotTables, PivotCharts, data organization, dashboard formatting",
+    skills: "Excel reporting, PivotTables, PivotCharts, data organization, dashboard formatting",
 
-  result: "A clear Excel reporting dashboard that summarizes structured data using tables and visual charts."
-},
+    result: "A clear Excel reporting dashboard that summarizes structured data using tables and visual charts."
+  }
 ];
+
 const certificates = [
   {
     id: "01",
@@ -329,6 +330,8 @@ function renderCertificates() {
 }
 
 function renderProjects(filter = "all") {
+  if (!projectGrid) return;
+  
   projectGrid.innerHTML = "";
 
   projects.forEach(project => {
@@ -388,13 +391,9 @@ function openProject(projectId) {
 
   modalTitle.textContent = project.title;
 
-
-  /* Before Screenshot */
-
   const beforeSection = project.beforeImage
     ? `
       <h3>Before Screenshot</h3>
-
       <div class="project-detail-image-wrapper">
         <img
           src="${project.beforeImage}"
@@ -405,13 +404,9 @@ function openProject(projectId) {
     `
     : "";
 
-
-  /* After Screenshot */
-
   const afterSection = project.afterImage
     ? `
       <h3>After Screenshot</h3>
-
       <div class="project-detail-image-wrapper">
         <img
           src="${project.afterImage}"
@@ -422,13 +417,9 @@ function openProject(projectId) {
     `
     : "";
 
-
-  /* Sample File */
-
   const sampleFileSection = project.sampleFile
     ? `
       <h3>Sample File</h3>
-
       <p>
         <a
           href="${project.sampleFile}"
@@ -441,18 +432,12 @@ function openProject(projectId) {
     `
     : "";
 
-
-  /* Result */
-
   const resultSection = project.result
     ? `
       <h3>Result</h3>
       <p>${project.result}</p>
     `
     : "";
-
-
-  /* Modal Content */
 
   modalBody.innerHTML = `
     <p>
@@ -467,7 +452,6 @@ function openProject(projectId) {
     <p>${project.tools}</p>
 
     <h3>Tasks Completed</h3>
-
     <ul>
       ${project.tasks
         .map(task => `<li>${task}</li>`)
@@ -478,26 +462,19 @@ function openProject(projectId) {
     <p>${project.skills}</p>
 
     ${beforeSection}
-
     ${afterSection}
-
     ${sampleFileSection}
-
     ${resultSection}
   `;
 
-
   modal.hidden = false;
-
   document.body.classList.add("menu-open");
-
-  modal.querySelector(".modal-close").focus();
+  modal.querySelector(".modal-close")?.focus();
 }
 
-
 function closeModal() {
+  if (!modal) return;
   modal.hidden = true;
-
   document.body.classList.remove("menu-open");
 }
 
@@ -506,13 +483,14 @@ function closeModal() {
    PROJECT BUTTON
    ========================================= */
 
-projectGrid.addEventListener("click", event => {
-  const button = event.target.closest(".project-view");
-
-  if (button) {
-    openProject(button.dataset.project);
-  }
-});
+if (projectGrid) {
+  projectGrid.addEventListener("click", event => {
+    const button = event.target.closest(".project-view");
+    if (button) {
+      openProject(button.dataset.project);
+    }
+  });
+}
 
 
 /* =========================================
@@ -521,16 +499,11 @@ projectGrid.addEventListener("click", event => {
 
 document.querySelectorAll(".filter-btn").forEach(button => {
   button.addEventListener("click", () => {
-
-    const activeButton =
-      document.querySelector(".filter-btn.active");
-
+    const activeButton = document.querySelector(".filter-btn.active");
     if (activeButton) {
       activeButton.classList.remove("active");
     }
-
     button.classList.add("active");
-
     renderProjects(button.dataset.filter);
   });
 });
@@ -540,18 +513,11 @@ document.querySelectorAll(".filter-btn").forEach(button => {
    MODAL
    ========================================= */
 
-document
-  .querySelector(".modal-close")
-  .addEventListener("click", closeModal);
-
-
-document
-  .querySelector(".modal-overlay")
-  .addEventListener("click", closeModal);
-
+document.querySelector(".modal-close")?.addEventListener("click", closeModal);
+document.querySelector(".modal-overlay")?.addEventListener("click", closeModal);
 
 document.addEventListener("keydown", event => {
-  if (event.key === "Escape" && !modal.hidden) {
+  if (event.key === "Escape" && modal && !modal.hidden) {
     closeModal();
   }
 });
@@ -564,28 +530,21 @@ document.addEventListener("keydown", event => {
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
 
-navToggle.addEventListener("click", () => {
-
-  const open = navMenu.classList.toggle("open");
-
-  navToggle.setAttribute("aria-expanded", open);
-
-  document.body.classList.toggle("menu-open", open);
-});
-
-
-document.querySelectorAll(".nav-menu a").forEach(link => {
-
-  link.addEventListener("click", () => {
-
-    navMenu.classList.remove("open");
-
-    navToggle.setAttribute("aria-expanded", "false");
-
-    document.body.classList.remove("menu-open");
+if (navToggle && navMenu) {
+  navToggle.addEventListener("click", () => {
+    const open = navMenu.classList.toggle("open");
+    navToggle.setAttribute("aria-expanded", open);
+    document.body.classList.toggle("menu-open", open);
   });
 
-});
+  document.querySelectorAll(".nav-menu a").forEach(link => {
+    link.addEventListener("click", () => {
+      navMenu.classList.remove("open");
+      navToggle.setAttribute("aria-expanded", "false");
+      document.body.classList.remove("menu-open");
+    });
+  });
+}
 
 
 /* =========================================
@@ -594,28 +553,21 @@ document.querySelectorAll(".nav-menu a").forEach(link => {
 
 const themeToggle = document.querySelector(".theme-toggle");
 
-themeToggle.addEventListener("click", () => {
+if (themeToggle) {
+  themeToggle.addEventListener("click", () => {
+    const dark = document.documentElement.dataset.theme === "dark";
 
-  const dark =
-    document.documentElement.dataset.theme === "dark";
-
-  if (dark) {
-
-    delete document.documentElement.dataset.theme;
-
-    localStorage.setItem("theme", "light");
-
-  } else {
-
-    document.documentElement.dataset.theme = "dark";
-
-    localStorage.setItem("theme", "dark");
-  }
-});
-
+    if (dark) {
+      delete document.documentElement.dataset.theme;
+      localStorage.setItem("theme", "light");
+    } else {
+      document.documentElement.dataset.theme = "dark";
+      localStorage.setItem("theme", "dark");
+    }
+  });
+}
 
 if (localStorage.getItem("theme") === "dark") {
-
   document.documentElement.dataset.theme = "dark";
 }
 
@@ -626,34 +578,23 @@ if (localStorage.getItem("theme") === "dark") {
 
 const revealObserver = new IntersectionObserver(
   entries => {
-
     entries.forEach(entry => {
-
       if (entry.isIntersecting) {
-
         entry.target.classList.add("visible");
-
         revealObserver.unobserve(entry.target);
       }
-
     });
-
   },
   { threshold: 0.12 }
 );
 
-
 function observeReveals() {
-
   document
     .querySelectorAll(".reveal:not(.visible)")
     .forEach(element => {
-
       revealObserver.observe(element);
-
     });
 }
-
 
 observeReveals();
 
@@ -662,38 +603,24 @@ observeReveals();
    ACTIVE NAVIGATION
    ========================================= */
 
-const sections =
-  document.querySelectorAll("main section[id]");
-
-const navLinks =
-  document.querySelectorAll(".nav-menu a");
-
+const sections = document.querySelectorAll("main section[id]");
+const navLinks = document.querySelectorAll(".nav-menu a");
 
 const activeObserver = new IntersectionObserver(
   entries => {
-
     entries.forEach(entry => {
-
       if (entry.isIntersecting) {
-
         navLinks.forEach(link => {
-
           link.classList.toggle(
             "active",
-            link.getAttribute("href") ===
-              `#${entry.target.id}`
+            link.getAttribute("href") === `#${entry.target.id}`
           );
-
         });
-
       }
-
     });
-
   },
   { threshold: 0.35 }
 );
-
 
 sections.forEach(section => {
   activeObserver.observe(section);
@@ -704,100 +631,70 @@ sections.forEach(section => {
    BACK TO TOP
    ========================================= */
 
-const backToTop =
-  document.querySelector(".back-to-top");
+const backToTop = document.querySelector(".back-to-top");
 
-
-window.addEventListener("scroll", () => {
-
-  backToTop.classList.toggle(
-    "visible",
-    window.scrollY > 600
-  );
-
-});
-
-
-backToTop.addEventListener("click", () => {
-
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
+if (backToTop) {
+  window.addEventListener("scroll", () => {
+    backToTop.classList.toggle(
+      "visible",
+      window.scrollY > 600
+    );
   });
 
-});
+  backToTop.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+}
 
 
 /* =========================================
-   CONTACT FORM
+   CONTACT FORM (Web3Forms Direct Send)
    ========================================= */
 
-const contactForm =
-  document.querySelector("#contact-form");
+const contactForm = document.querySelector("#contact-form");
+const formMessage = document.querySelector(".form-message");
 
-const formMessage =
-  document.querySelector(".form-message");
+if (contactForm) {
+  contactForm.addEventListener("submit", async event => {
+    event.preventDefault();
 
+    const submitBtn = contactForm.querySelector('button[type="submit"]');
+    const formData = new FormData(contactForm);
 
-contactForm.addEventListener("submit", event => {
+    formData.append("access_key", "435a75f6-f3af-41d9-a583-0c03aebd0cb7");
 
-  event.preventDefault();
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = "Sending...";
+    submitBtn.disabled = true;
 
-  const name =
-    document.querySelector("#name").value.trim();
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
 
-  const email =
-    document.querySelector("#email").value.trim();
+      const data = await response.json();
 
-  const message =
-    document.querySelector("#message").value.trim();
-
-
-  if (!name || !email || !message) {
-
-    formMessage.textContent =
-      "Please complete all fields.";
-
-    formMessage.style.color = "#dc2626";
-
-    return;
-  }
-
-
-  if (
-    !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
-  ) {
-
-    formMessage.textContent =
-      "Please enter a valid email address.";
-
-    formMessage.style.color = "#dc2626";
-
-    return;
-  }
-
-
-  const subject =
-    encodeURIComponent(
-      `Portfolio inquiry from ${name}`
-    );
-
-
-  const body =
-    encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\n\n${message}`
-    );
-
-
-  window.location.href =
-    `mailto:your-email@example.com?subject=${subject}&body=${body}`;
-
-
-  formMessage.textContent =
-    "Your email application is being prepared.";
-
-  formMessage.style.color = "#16a34a";
-});
+      if (response.ok) {
+        formMessage.textContent = "Success! Your message has been sent.";
+        formMessage.style.color = "#16a34a";
+        contactForm.reset();
+      } else {
+        formMessage.textContent = "Error: " + data.message;
+        formMessage.style.color = "#dc2626";
+      }
+    } catch (error) {
+      formMessage.textContent = "Something went wrong. Please try again.";
+      formMessage.style.color = "#dc2626";
+    } finally {
+      submitBtn.textContent = originalText;
+      submitBtn.disabled = false;
+    }
+  });
+}
 
 
 /* =========================================
